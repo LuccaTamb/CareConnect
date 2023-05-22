@@ -1,0 +1,30 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: #D5E5CA;
+    color: #5B5F5C;
+    background-attachment: fixed;
+}
+body{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c4b650 !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
