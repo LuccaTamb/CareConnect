@@ -1,235 +1,328 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CareConnect</title>
 
-    <!-- Google Fonts -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CareConnect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <link rel="shortcut icon" href="./assets/imgs/favicon.png" type="image/x-icon">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 
-    <!-- css -->
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/headers.css">
-    <link rel="stylesheet" href="./assets/css/hero.css">
-    <link rel="stylesheet" href="./assets/css/btn.css">
-    <link rel="stylesheet" href="./assets/css/bg.css">
-    <link rel="stylesheet" href="./assets/css/img.css">
-    <link rel="stylesheet" href="./assets/css/cards.css">
-
+    <link rel="stylesheet" href="./assets/css/card1.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
-
-    <header class="header-page">
-        <h2>Care Connect</h2>             
-        <nav class="header-menu">
-            <ul>
-                <li><a href="#container1">Sobre Nós</a> </li>
-                <li><a href="#containernv">Funcionamento</a> </li>
-                <li><a href="#container2">Impacto</a> </li>
-                <li><a href="#container3">ONGs</a> </li>
-                <li><a href="#container4">Entretenimento</a> </li>
-                <li><a href="#container5">Doar</a> </li>
-                <li><a href="#container6">Loja</a> </li>
-                <li><a href="#container7">Contato</a> </li>
-            </ul>
+    
+    <header class="p-4">
+        <nav class="navbar navbar-expand-lg fs-5">
+            <div class="container-fluid">
+                <a class="nav-link fs-4 fw-bold" href="#">Care Connect</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container1">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container2">Funcionamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container3">Impacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container4">ONGs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container5">Doar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container6">Loja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container7">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <div class="bg-padrao" id="container0">
-        <div class="hero">
-            <h1 class="h1padrao">Transforme sua</h1>
-            <h1 class="h1padrao">conexão em ação</h1>
-            <p class="p1padrao">Ajude ONGs sustentáveis atráves da Care Connect</p>
-        </div>
-        <img src="./assets/img/arvore1.png" id="arvore1" alt="arvores">
-        <img src="./assets/img/arvore2.png" id="arvore2" alt="arvores">
-        <div id="circulo"></div>
-        <a id="seta" href="#container1"></a>
-
-        </a>
-    </div>
-
-    <div class="container bg-sobrenos" id="container1">
-        <div class="hero">
-            <h1 class="h1sobrenos">Quem somos?</h1>
-            <p class="p1sobrenos">A Care Connect é uma start-up focada em sustentabilidade, criada por alunos da instituição de ensino superior FIAP em 2023. Atualmente temos um site, uma conta no Instagram e um aplicativo, a fim de divulgar o andamento de nosso trabalhos.</p>
-            <h1 class="h2sobrenos">Nosso Objetivo</h1>
-            <p class="p2sobrenos">A principal meta da Care Connect é ajudar financeiramente ONGs que tenham objetivos sustentáveis, uma vez que, por causa da pandemia da Covid-19, muitas delas ficaram prejudicadas e não recebem mais tantas doações. Portanto, nosso sistema irá fazer seu tempo gasto em redes sociais e jogos tornarem-se meios de geração de doação para elas.</p>
-        </div>
-        <div id="circulo1"></div>
-        <div id="circulo2"></div>
-        <a id="seta" href="#containernv"></a>
-
-    </div>
-
-    <div class="container bg-funcionamento" id="containernv"> 
-        <div class="hero">
-            <h1 class="h1funcionamento">Como meu tempo em redes sociais e games viram dinheiro?</h1>
-            <p class="p1funcionamento">Enquanto o usuário usa seus jogos e redes sociais vinculadas ao nosso serviço, anúncios aparecerão. Em média o pagamento por visualização é de $0.01 , logo a cada 10 anúncios ele conseguiria 1 ponto, equivalente a $0.1 ou R$0,50.</p>
-            <p class="p2funcionamento">1 ponto = 50 centavos</p>
-        </div>
-        <div id="circulonv"></div>
-        <div id="circulonv2"></div> 
-        <img src="./assets/img/jogo.png" id="jogo" alt="icone de jogo">   
-        <img src="./assets/img/moeda.png" id="moeda" alt="icone de moeda">
-        <a id="seta" href="#container2"></a>  
-
-    </div>
-
-    <div class="container bg-impacto" id="container2">
-        <div class="hero">
-            <h1 class="h1impacto">Porque somos importantes?</h1>  
-        </div>
-        <br><br>
-        <div class="container-impactos">
-            <div class="container-card" id="container2">
-                <div class="card-item">
-                    <img src="./assets/img/doacao.png" alt="mão com um coração">
-                    <p>Ajudamos ONGs com doações</p>
-                </div>
-                <div class="card-item">
-                    <img src="./assets/img/coracao.png" alt="mão em formato de coração">
-                    <p>Mais visibilidade às causas das organizações</p>
-                </div>
-                <div class="card-item">
-                    <img src="./assets/img/alvo.png" alt="alvo">
-                    <p>Aumento do impacto e ação</p>
-                </div>
+    <main>
+        <section class="conteiner-fluid d-flex flex-column">
+            <div class="margin mx-auto">
+                <h1 class="display-3 fw-bold">Transforme sua ação <br> em conexão</h1>
+                <h2 class="fw-semibold">Ajude ONGs sustentáveis através  da Care Connect</h2>
             </div>
-            <div class="container-card2" id="container2">
-                <div class="card-item">
-                    <img src="./assets/img/verificado.png" alt="verificado">
-                    <p>Transparência e confiança</p>
-                </div>
-                <div class="card-item">
-                    <img src="./assets/img/entretenimento.png" alt="entretenimento">
-                    <p>Entretenimento e sustentabilidade</p>
-                </div>
-            </div>
-        </div>
-        
-        <div id="circulo3"></div> 
-        <img src="./assets/img/flores.png" id="flores" alt="flores">   
-        <a id="seta" href="#container3"></a>  
-    </div>
-    
-    <div class="container bg-ongs" id="container3">
-        <div class="hero">
-            <h1 class="h1ongs">Conheça algumas das nossas ONGs parceiras mais famosas</h1>
-        </div>
-        <br><br>
-        <div class="container-ongs">
-            <div class="container-card3" id="container3">
-                <div class="card-item2">
-                    <p>Instituto Ecotece</p>
-                </div>
-                <div class="card-item2">
-                    <p>SOS Amazônia</p>
-                </div>
-                <div class="card-item2">
-                    <p>ILZB</p>
-                </div>
-            </div>
-            <div class="container-card4" id="container3">
-                <div class="card-item2">
-                    <p>ISA</p>
-                </div>
-                <div class="card-item2">
-                    <p>WWF Brasil</p>
-                </div>
-                <div class="card-item2">
-                    <p>Sustentarte</p>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <div class="hero">
-            <div id="circuloo"></div>
-            <p1 class="p1ongs">Conhece alguma outra? Pesquise-a e adicione nos favoritos na aba do perfil!</p1> 
-            <img src="./assets/img/pesquisa.png" id="pesquisa" alt="pequisa" class="pesquisaa">
-        </div>
-        <a id="seta" href="#container4"></a> 
-    </div>
-    
-    <div class="container bg-entretenimento" id="container4"> 
-        <div class="hero">
-            <h1 class="h1entretenimento">Se divirta e ganhe pontos!</h1> 
-            <p1 class="p1entretenimento">Clique para ter acesso a plataformas parceiras e ganhe pontos que serão convertidos para suas doações.</p1>
-        </div>  
-        <div id="circulo4"></div>
-        <img src="./assets/img/entretenimento.png" id="entretenimento2" alt="entretenimento">
-        <img src="./assets/img/seta.png" id="seta2" alt="seta">
-        <a id="seta" href="#container5"></a>
+            <div id="circulo"></div>
+            <section class="d-flex m-top">
+                <img src="./assets/imgs/arvore1.png" alt="desenho de árvores" class="img-fluid imgs">
+                <a class="mx-auto d-none d-md-none d-lg-flex align-self-end mb-4" id="seta" href="#container1"></a>
+                <img src="./assets/imgs/arvore2.png" alt="desenho de árvores" class="img-fluid imgs ms-auto d-none d-md-none d-lg-block">
+            </section>
+        </section>
+        <article class="px">
 
-    </div>
-    
-    <div class="container bg-doar" id="container5">
-        <div class="hero">
-            <h1 class="h1doar">Deseja fazer doações diretamente?</h1> 
-            <p1 class="p1doar">Clique ao lado para ter acesso aos meios de pagamento, a quantia que pode ser doada e para qual ONG.</p1> 
-        </div>  
-        <div id="circulo5"></div>
-        <img src="./assets/img/moeda.png" id="moeda2" alt="moeda">
-        <img src="./assets/img/seta2.png" id="seta3" alt="seta">
-        <a id="seta" href="#container6"></a>
-
-    </div>
-    
-    <div class="container bg-loja" id="container6">
-        <div class="hero">
-            <h1 class="h1loja">Loja da CareConnect</h1> 
-        </div>
-        <div class="container-card5" id="container6">
-            <div class="card-item3">
-                <img src="./assets/img/arduino.png" alt="arduino" class="arduinoimg">
-                <p>Projeto com arduino</p>
-                <p>Em breve</p>
-            </div>
-            <div class="card-item3">
-                <img src="./assets/img/caneca.png" alt="caneca" class="canecaimg">
-                <p>Caneca</p>
-                <p>R$ 35</p>
-                <p>Garrafa térmica</p>
-                <p>R$ 50</p>
-            </div>
-            <div class="card-item3">
-                <img src="./assets/img/bag.png" alt="ecobag" class="ecobagimg">
-                <p>Ecobag</p>
-                <p>R$ 25</p>
-                <p>Mochila</p>
-                <p>R$ 75</p>
-            </div>
-        </div>
-        <div class="hero">
-            <p1 class="p1loja">*todo dinheiro arrecadado será doado</p1> 
-            <p2 class="p2loja">carrinho</p2>
-            <img src="./assets/img/carrinho.png" id="carrinho" alt="carrinho" class="imgloja">
-        </div>
-        <a id="seta" href="#container7"></a>   
-    </div>
-    
-    <div class="container bg-contato" id="container7">
-        <div class="hero">
-            <img src="./assets/img/compartilhe.png" id="compartilhe" alt="compartilhe">
-            <h2 class="h2contato">Compartilhe a Care Connect com amigos!</h2>
-            <h1 class="h1contato">Incentive doações e boas ações! </h1>
-            <img src="./assets/img/doacao.png" id="doacao2" alt="doação">
-            <h1 class="h1contato2">
-            Contamos
-            com você!</h1>
-            <p class="pcontato">Contato</p><br>
-            <p1 class="p1contato">(11)ﾠ12345-1234 care.connect@gmail.com @care.connect</p1> 
-        </div>
-        <div id="circulo6"></div>
-        <a href="#container0">
-            <img src="./assets/img/logo.png" id="logo" alt="logo">
-        </a>
+            <section class="conteiner-fluid d-flex flex-column justify-content-center container2" id="container1">
+                <h2 class="display-4 mt-5 mb-2 fw-bold">Quem somos?</h2>
+                <p class="fs-2 justify-text">A Care Connect é uma start-up focada em sustentabilidade, criada por alunos da instituição de ensino superior FIAP em 2023. Atualmente temos um site, uma conta no Instagram e um aplicativo, a fim de divulgar o andamento de nosso trabalhos.</p>
             
-    </div>
+                <h2 class="display-4 mt-5 mb-2 align-self-end fw-bold">Nosso Objetivo</h2>
+                <p class="fs-2 justify-text">A principal meta da Care Connect é ajudar financeiramente ONGs que tenham objetivos sustentáveis, uma vez que, por causa da pandemia da Covid-19, muitas delas ficaram prejudicadas e não recebem mais tantas doações. Portanto, nosso sistema irá fazer seu tempo gasto em redes sociais e jogos tornarem-se meios de geração de doação para elas.</p>
+            
+                <div id="circulo1"></div>
+                <div id="circulo2"></div>
+            
+            
+            </section>
+            <a class="mx-auto d-none d-md-none d-lg-flex" id="seta" href="#container2"></a>
+            
+            <section class="container-fluid flex-column margin-section text-center d-flex justify-content-center" id="container2">
+                <h2 class="display-3 fw-bold d-block">Como meu tempo em redes sociais e games <br> vira dinheiro?</h2>
+                <p class="display-6 justify-text text-container mx-auto my-4">Enquanto o usuário usa seus jogos e redes sociais vinculadas ao nosso serviço, anúncios aparecerão. Em média o pagamento por visualização é de $0.01 , logo a cada 10 anúncios ele conseguiria 1 ponto, equivalente a $0.1 ou R$0,50.</p>
+                <div id="circulonv2"></div>
+                <div class="row d-flex justify-content-center mt-5">
+                    <img src="./assets/imgs/jogo.png" alt="desenho de videogame" class="img-fluid imgs2 col-md-4">
+                    <p class="col-md-4 fs-2 fw-bold">1 ponto = 50 centavos</p>
+                    <img src="./assets/imgs/moeda.png" alt="desenho de moedas" class="img-fluid imgs2 col-md-4">
+                </div>
+            </section>
+            <a class="mx-auto d-none d-md-none d-lg-flex mb-5" id="seta" href="#container3"></a>
 
+            <section class="mt-5 d-flex flex-column align-items-center" id="container3">
+                <h2 class="display-3 text-center d-block container2">Por que somos importantes?</h2>
+
+                <div class="row grid gap-5 d-flex justify-content-center width-cards">
+                    <div class="card text-center mb-3 bg-card border-0 rounded-4 bg-width">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="./assets/imgs/doacao.png" alt="desenho de uma mão segurando um coração" class="img-fluid imgs2">
+                            <h5 class="card-title">Ajudamos ONGs com doações</h5>
+                        </div>
+                    </div>
+
+                    <div class="card text-center mb-3 bg-card border-0 rounded-4 bg-width">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="./assets/imgs/coracao.png" alt="desenho de duas mãos formando um coração" class="img-fluid imgs2">
+                            <h5 class="card-title">Mais visibilidade às causas das organizações</h5>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card text-center mb-3 bg-card border-0 rounded-4 bg-width">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="./assets/imgs/alvo.png" alt="desenho de um alvo e uma flecha" class="img-fluid imgs2">
+                            <h5 class="card-title">Aumento do impacto e ação</h5>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card text-center mb-3 bg-card border-0 rounded-4  bg-width">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="./assets/imgs/verificado.png" alt="imagem de um símbolo de verificado" class="img-fluid imgs2">
+                            <h5 class="card-title">Transparência e confiança</h5>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card text-center mb-3 bg-card border-0 rounded-4 bg-width">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="./assets/imgs/entretenimento.png" alt="desenho de um livro, uma nota musical e um controle de videogame" class="img-fluid imgs2">  
+                            <h5 class="card-title">Entretenimento e sustentabilidade</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="./assets/imgs/flores.png" alt="desenho de flores" class="img-fluid img-flor me-auto">
+                <a class="mx-auto d-none d-md-none d-lg-flex" id="seta" href="#container4"></a>
+            </div>
+
+            <section class="container-fluid" id="container4">
+                <h2 class="display-3 text-center mb-5">Conheça algumas das nossas ONGs parceiras mais famosas</h2>
+
+                <section class="row grid gap-3 d-flex justify-content-center align-items-center my-5 py-5 card-container mx-auto">
+                    <div class="col-md-4 ">
+                        <div class="card bg-card card-border card-size mx-auto">
+                            <div class="card-body fw-bold text-center">
+                                Instituto Ecotece
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-card card-border card-size mx-auto">
+                            <div class="card-body fw-bold text-center">
+                                SOS Amazônia
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-card card-border card-size mx-auto">
+                            <div class="card-body fw-bold text-center">
+                                ILZB
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-card card-border card-size mx-auto">
+                            <div class="card-body fw-bold text-center">
+                                ISA
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-card card-border card-size mx-auto">
+                            <div class="card-body fw-bold text-center">
+                                WWF Brasil
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-card card-border card-size mx-auto">
+                            <div class="card-body fw-bold text-center">
+                                Sustentarte
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <form class="d-flex justify-content-center my-5" role="search">
+                    <input class="form-control me-2 search-width" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <p class="fs-3 fw-semibold text-center">Conhece alguma outra? Pesquise-a e adicione nos favoritos na aba do perfil!</p>
+            </section>
+            <a class="mx-auto d-none d-md-none d-lg-flex mt-5" id="seta" href="#container5"></a>
+
+            <section class="container-fluid margin-points points-size mx-auto px-4" id="container5">
+                <div id="circulo4"></div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <a href="#"><img src="./assets/imgs/entretenimento.png" alt="desenho de um livro, uma nota musical e um controle de videogame" class="img-fluid img-game mx-auto"></a>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <h2 class="display-3 mb-5 fw-bold mt-5">Se divirta e ganhe pontos</h2>
+                        <p class="fs-3 fw-semibold justify-text">Clique na imagem para ter acesso a plataformas parceiras e ganhe pontos que serão convertidos para suas doações.</p>
+                    </div>
+                </div>
+        
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h2 class="display-3 mb-5 fw-bold mt-5">Deseja fazer doações diretamente?</h2>
+                        <p class="fs-3 fw-semibold justify-text">Clique na imagem para ter acesso aos meios de pagamento, a quantia que pode ser doada e para qual ONG</p>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#"><img src="./assets/imgs/moeda.png" alt="desenho de uma moeda" class="img-fluid img-game"></a>
+                    </div>
+
+                </div>
+            </section>
+            <a class="mx-auto d-none d-md-none d-lg-flex mt-5" id="seta" href="#container6"></a>
+
+            <section class="container-fluid d-flex flex-column align-items-center mt-5" id="container6">
+                <h2 class="align-self-start my-5 display-3 fw-bold">Loja da CareConnect</h2>
+
+                <section class="row card-width">
+                    <div class="col-md-4 mt-2">
+                        <div class="card text-center">
+                            <img src="./assets/imgs/arduino-uno-projeto.png" class="card-img-top img-fluid" alt="projeto com arduíno uno">
+                            <div class="card-body">
+                                <h5 class="card-title">Projeto com Arduíno</h5>
+                                <p class="card-text">Em breve</p>
+                                <a class="btn bg-btn" href="#" role="button"><i
+                                    class="bi bi-cart4 me-3"></i>Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 mt-2">
+                        <div class="card text-center">
+                            <img src="./assets/imgs/caneca-garrafa.png" class="card-img-top" alt="garrafa térmica e caneca">
+                            <div class="card-body">
+                                <h5 class="card-title">Caneca / Garrafa</h5>
+                                <p class="card-text">R$50,00</p>
+                                <a class="btn bg-btn" href="#" role="button"><i
+                                        class="bi bi-cart4 me-3"></i>Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 mt-2">
+                        <div class="card text-center">
+                            <img src="./assets/imgs/bags.png" class="card-img-top" alt="mochila e bolsa">
+                            <div class="card-body">
+                                <h5 class="card-title">Ecobag / Mochila</h5>
+                                <p class="card-text">R$25,00 / R$75,00</p>
+                                <a class="btn bg-btn" href="#" role="button"><i
+                                        class="bi bi-cart4 me-3"></i>Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <p class="mt-4">*Todo dinheiro arrecadado será doado para as instituições com as quais trabalhamos</p>
+                <a class="btn btn-light fs-5" href="#" role="button">Ver mais itens</a>
+            </section>
+            <a class="mx-auto d-none d-md-none d-lg-flex mt-5" id="seta" href="#container7"></a>
+
+            <section class="container-fluid d-flex flex-column align-items-center mt-5 p-5" id="container7">
+                <h2 class="display-5 align-self-start mt-5"><i class="bi bi-share-fill me-3"></i>Compartilhe a CareConnect com os amigos!</h2>
+                <h2 class="display-3 fw-bold align-self-start mt-4 mb-5">Incentive doações e boas ações!</h2>
+                <img src="./assets/imgs/doacao.png" alt="desenho de uma mão segurando um coração" class="img-fluid imgs2 mt-5 mb-5">
+                <h2 class="display-3 fw-bold align-self-end mt-5 mb-4">Contamos com você!</h2>
+
+    
+            </section>
+
+            
+        </article>
+        <footer class="container-fluid bg-card py-2 footer  d-flex align-items-center justify-content-center flex-column">
+            <h3 class="fw-semibold align-self-start ms-3 pt-2">Contato</h3>
+            <div class="d-flex align-items-center">
+                <div class="row ps-3">
+                    <div class="col-md-4">
+                        <a href="#" class="me-5"><i class="bi bi-telephone me-2"></i> +55 (11) 12345-6789</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="me-4"><i class="bi bi-envelope-at me-2"></i>care.c@gmail.com</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="me-4"><i class="bi bi-instagram me-2"></i>@care.connect</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/imgs/logo-removebg-preview.png" alt="logo da CareConnect"
+                        class="img-fluid logo">
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
