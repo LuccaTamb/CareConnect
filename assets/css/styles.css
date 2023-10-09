@@ -1,0 +1,155 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    color: #5B5F5C;
+    margin: 0;
+
+}
+
+ul, ol, a{
+        text-decoration: none ;
+    }
+
+body{
+    background-color: #D5E5CA;
+}
+
+a:hover {
+    color: #c4b650 !important;
+}
+
+.imgs{
+    max-width: 375px;
+}
+
+#seta{
+    position: absolute;
+    padding: 15px;
+    box-shadow: 2px -2px 0 1px;
+    border: solid transparent;
+    border-width: 0 0 1px 1px;
+    transform: rotate(135deg);
+    left: 52%;
+    color: #5B5F5C;
+}
+
+#seta:hover{
+    color: #c4b650 !important;
+}
+
+.margin{
+    margin-top: 140px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.m-top{
+    margin-top: 100px;
+}
+
+#circulo{
+    background: #E9DE89;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: blur(60px);
+    position: absolute;
+    bottom: 50%;
+    left: 60%;
+}
+
+.container2{
+    margin-top: 150px;
+    margin-bottom: 7vmax;
+}
+
+
+
+.justify-text{
+    text-align: justify;
+}
+
+#circulo1{
+    background: #E9DE89;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: blur(60px);
+    position: absolute;
+    bottom: -105%;
+}
+#circulo2{
+    background: #E9DE89;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: blur(60px);
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+}
+
+.px{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imgs2{
+    max-width: 120px;
+}
+
+.margin-section{
+    margin-top: 20vmax;
+    margin-bottom: 10vmax;
+}
+
+.text-container{
+    max-width: 1300px;
+}
+
+#circulonv2{
+    background: #E9DE89;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: blur(60px);
+    position: absolute;
+    right: 0;
+    bottom: -205%;
+}
+
+.margin-points{
+    margin-top: 8vmax;
+}
+
+.points-size{
+    max-width: 1300px;
+}
+
+.area{
+    margin: 0;
+}
+
+#circulo4{
+    background: #E9DE89;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: blur(60px);
+    position: absolute;
+    right: 0;
+}
+
+.img-game{
+    max-width: 211px;
+    transition: 0.3s;
+    margin: auto;
+    display: block;
+}
+
+.img-game:hover{
+    transform: scale(1.1);
+}
+ 
+.logo{
+    max-width: 100px;
+}
